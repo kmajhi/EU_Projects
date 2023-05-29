@@ -11,8 +11,10 @@ int main()
         // to exit
         if (ch == 'x')
             exit(0);
-        printf("Enter two first and second operand: ");
-        scanf("%lf %lf",&a,&b);
+        printf("Enter the first operand: ");
+        scanf("%lf %lf",&a);
+       printf("Enter the second operand: ");
+        scanf("%lf %lf",&b);
         // Using switch case we will differentiate
         // operations based on different operator
         switch (ch) {
