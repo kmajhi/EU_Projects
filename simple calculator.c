@@ -12,9 +12,9 @@ int main()
         if (ch == 'x')
             exit(0);
         printf("Enter the first operand: ");
-        scanf("%lf %lf",&a);
+        scanf("%lf",&a);
        printf("Enter the second operand: ");
-        scanf("%lf %lf",&b);
+        scanf("%lf",&b);
         // Using switch case we will differentiate
         // operations based on different operator
         switch (ch) {
