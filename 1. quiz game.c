@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int score = 0;
-    int answer;
+    int score = 0, answer;
 
     printf("Welcome to the Quiz Game!\n\n");
 
